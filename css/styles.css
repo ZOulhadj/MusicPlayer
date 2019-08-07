@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px dotted #fafafa; */
+    width: 500px;
+    height: 300px;
+}
+
+.song-name {
+    color: #fafafa;
+    /* Temp font */
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 38px; */
+}
+
+.song-cover {
+    width: 200px;
+    height: 120px;
+    background-color: #fff;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    max-height: 224px;
+    padding-bottom: 25px;
+}
+
+.icons i {
+    transition: .2s;
+    color: #fff;
+    padding: 20px;
+}
+
+.icons i:hover {
+    transition: .2s;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+}
