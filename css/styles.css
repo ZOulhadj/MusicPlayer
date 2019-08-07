@@ -14,22 +14,13 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    /* border: 1px dotted #fafafa; */
     width: 500px;
     height: 300px;
 }
 
 .song-name {
     color: #fafafa;
-    /* Temp font */
     font-family: 'Open Sans', sans-serif;
-    /* font-size: 38px; */
-}
-
-.song-cover {
-    width: 200px;
-    height: 120px;
-    background-color: #fff;
 }
 
 .icons {
