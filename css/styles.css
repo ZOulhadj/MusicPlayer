@@ -16,11 +16,21 @@ body {
     flex-direction: column;
     width: 500px;
     height: 300px;
+    border-radius: 2%;
+    /* border: 1px dashed #1b1c1c; */
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 }
 
 .song-name {
     color: #fafafa;
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.song-time {
+    color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
 }
 
 .icons {
@@ -40,4 +50,17 @@ body {
     transition: .2s;
     color: rgb(53, 53, 53);
     cursor: pointer;
+}
+
+.background-image {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0.5;
+    background-image: url('../images/player-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    border-radius: 2%;
 }
